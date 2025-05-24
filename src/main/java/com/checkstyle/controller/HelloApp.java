@@ -9,11 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloApp {
 
-    /**
-     * Endpoint untuk mengembalikan pesan "check style app".
-     *
-     * @return String pesan sambutan
-     */
+
     @GetMapping(path = "/hello-app")
     public String helloApp() {
         return "check style app";
